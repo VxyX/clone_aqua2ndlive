@@ -19,7 +19,7 @@ export default function Home() {
           </div>
         </div>
         <div className="bg-ungu h-auto flex flex-wrap place-content-center m-auto py-44">
-          <div id="beranda" className="bg-gedung animate-fade-in-dikit -my-10 w-3/4">
+          <div id="beranda" className="bg-gedung animate-fade-in-dikit -my-10 w-5/6">
             <div className="animate-fade-in-banyak -my-24">
               <Image src={aqua} alt="Gambar Utama" />
             </div>
