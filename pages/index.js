@@ -24,11 +24,11 @@ export default function Home() {
           className="bg-ungu h-screen hp:h-auto grid place-content-center"
         >
           <div className="relative">
-            <div className="animate-fade-in-dikit m-auto h-auto py-10 px-10">
-              <div className="absolute">
+            <div className="animate-fade-in-dikit m-auto h-auto">
+              <div className="absolute p-5 hp:p-10">
                 <Image src={gedung} alt="Gambar Utama" />
               </div>
-              <div className="animate-fade-in-banyak z-10">
+              <div className="animate-fade-in-banyak">
                 <Image src={aqua} alt="Gambar Utama" />
               </div>
             </div>
