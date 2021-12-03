@@ -9,6 +9,7 @@ module.exports = {
       desktop: "1280px",
     },
 
+    
     extend: {
       keyframes: {
         "fade-in-dikit": {
