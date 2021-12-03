@@ -25,7 +25,7 @@ export default function Home() {
         >
           <div className="relative">
             <div className="animate-fade-in-dikit m-auto h-auto py-10 px-10">
-              <div className="absolute">
+              <div className="absolute"> 
                 <Image src={gedung} alt="Gambar Utama" />
               </div>
               <div className="animate-fade-in-banyak z-10">
