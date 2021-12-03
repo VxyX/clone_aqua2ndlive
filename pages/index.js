@@ -44,7 +44,7 @@ export default function Home() {
               <Image src={aqua2} className=""></Image>
             </div>
           </div>
-
+ 
         </div>
         <div>
           <Image src={utama} alt="Gambar Utama" /> {/*cuma test animasi bini sy */}
