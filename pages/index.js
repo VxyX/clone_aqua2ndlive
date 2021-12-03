@@ -47,12 +47,12 @@ export default function Home() {
 
         </div>
         <div>
-          <Image src={utama} alt="Gambar Utama" /> //cuma test animasi bini sy 
+          <Image src={utama} alt="Gambar Utama" /> {/*cuma test animasi bini sy */}
         </div>
       </div>
 
-//biar g imlang hehe :v
-  {/* <div className="h-screen">
+{//biar g imlang hehe :v
+  /* <div className="h-screen">
         <div className="flex-wrap bg-cross hidden">
           <div className="place-content-center flex flex-wrap h-screen m-auto">
             <Image src={utama} alt="Gambar Utama" />
