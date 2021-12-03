@@ -17,9 +17,9 @@ export default function Home() {
           <div className="place-content-center flex flex-wrap h-screen m-auto">
             <Image src={utama} alt="Gambar Utama" />
           </div>
-        </div> */}
-
-        {/* <div className="h-auto block place-content-center px-14 py-20 box-border">
+        </div> 
+        
+        <div className="h-auto block place-content-center px-14 py-20 box-border">
           <div id="container" className="flex overflow-hidden">
             <div id="beranda" className="animate-gedung-fade-in relative w-full h-auto">
               <Image src={gedung} />
