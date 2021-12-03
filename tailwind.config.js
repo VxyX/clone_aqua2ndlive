@@ -31,6 +31,16 @@ module.exports = {
             transform: "translateY(0)",
           },
         },
+        "kecilin-scale": {
+          "0%": {
+            opacity: "0",
+            transform: "scale(150px)",
+          },
+          "100%": {
+            opacity: "1",
+            transform: "scale(50px)",
+          },
+        },
         "fade-out-down": {
           from: {
             opacity: "1",
@@ -95,6 +105,7 @@ module.exports = {
       animation: {
         "fade-in-dikit": "fade-in-dikit 0.3s ease-out",
         "fade-in-banyak": "fade-in-banyak 3s ease-out",
+        "kecilin-scale": "kecilin-scale 2s ease-out",
         "fade-out-down": "fade-out-down 1s ease-out",
         "fade-in-up": "fade-in-up 1s ease-out",
         "fade-out-up": "fade-out-up 1s ease-out",
@@ -127,4 +138,4 @@ module.exports = {
     extend: {},
   },
   plugins: [],
-}
+};
