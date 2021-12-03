@@ -2,6 +2,7 @@ import Head from "next/head";
 import Image from "next/image";
 import utama from "../public/images/svg/logo_2line_full.svg";
 import aqua from "../public/images/aqua_neko_1000-min.png";
+import aqua2 from "../public/images/aqua_neko_1500_pc-min.png";
 import gedung from "../public/images/kv_bg_ef_1920-min.jpg";
 
 export default function Home() {
