@@ -1,0 +1,17 @@
+data diri
+https://kreatiformasi.mediaformasi.com/
+
+merch
+https://tokopedia.link/onbJMighSnb
+
+talent
+https://www.youtube.com/c/VirtunixOfficial/featured
+
+tweet
+https://twitter.com/virtunix
+
+referensi
+https://www.nijisanji.jp/en
+
+schedule by holodex api
+https://holodex.stoplight.io/docs/holodex/b3A6MTE2MjAyMzU-query-live-and-upcoming-videos
