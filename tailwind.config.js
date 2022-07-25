@@ -100,7 +100,7 @@ module.exports = {
           "100%": {
             opacity: "1",
             transform: "scale(1)",
-          }
+          },
         }
       },
       animation: {
@@ -113,25 +113,51 @@ module.exports = {
         "aqua-fade-in": "aqua-fade-in 1.5s cubic-bezier(0.30, 1, 0.7, 1)",
         "aqua2-fade-in": "aqua2-fade-in 1.5s cubic-bezier(0.30, 1, 0.7, 1)",
         "gedung-fade-in": "gedung-fade-in 1.5s cubic-bezier(0.30, 1, 0.7, 1)",
+        "bg-circle-a":"spin 40s linear infinite"
       },
 
       backgroundImage: {
-        cross: "url('../public/images/texture_cross_dot.png')",
-        ungu: "url('../public/images/main_bg.jpg')",
-        gedung: "url('../public/images/kv_bg_ef_1920-min.jpg')",
+        cross: "url('../public/images/home/textureLoadBg_cross_dot.png')",
+        bgUngu: "url('../public/images/home/main_bg.jpg')",
+        bgCircle: "url('../public/images/svg/bg_border_circle.svg')",
+        bgFrame: "url('../public/images/svg/bg_sideframe.svg')",
+        dot: "url('../public/images/svg/texture_dot.svg')",
+        gedung: "url('../public/images/home/kv_bg_ef_1920-min.jpg')",
+        frameCenter: "url('../public/images/svg/kv_frame_tc.svg')",
+        freameSide: "url('../public/images/svg/kv_frame_tl.svg')",
+        loadScreenBg: "url('../public/images/svg/logo_2line_full.svg')",
+        loadScreenTexture: "url('../public/images/home/textureLoadBg_cross_dot.png')"
+      },
+      
+      backgroundSize: {
+        dotSize: '68px auto',
       },
 
       scale: {
         full: '100%',
+        flip: '-1',
+        double: '2'
+      },
+
+      transitionTimingFunction: {
+        'mainBg': 'cubic-bezier(0.30, 1, 0.7, 1)',
+      },
+
+      transitionDuration: {
+        '15s': '1.5s'
       },
       
       inset: {
         'tl' : '58%',
-        'tl1': '53%',
+        'tl1': '54%',
+        'circleBgRight': '-1.5%',
+        'circleBgBottom': '-1%',
+        'circleBgTop': '-8%',
       },
 
       spacing: {
         aqua: '89%',
+        px100: '100px',
       }
     },
   },
